@@ -1,0 +1,7 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:distributed-process-p2p"
+
+    - path: "./tests"
+      component: "distributed-process-p2p:exe:jollycloud"
